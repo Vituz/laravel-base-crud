@@ -15,16 +15,26 @@
 </head>
 
 <body>
-    <header id="site_header">
-        @include('partials.header')
-    </header>
+    <div id="app">
 
-    <main id="site_main">
-        @yield('content')
-    </main>
+        <header id="site_header">
+            @include('partials.header')
+        </header>
 
-    <footer id="site_footer"></footer>
-    @include('partials.footer')
+        <main id="site_main">
+            @yield('content')
+        </main>
+
+        <footer id="site_footer"></footer>
+        @include('partials.footer')
+
+    </div>
+
+    <!-- VUEJS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+    <!-- JS -->
+    <script src="{{asset('js/app.js')}}"></script>
 </body>
 
 </html>

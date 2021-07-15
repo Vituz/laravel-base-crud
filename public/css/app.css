@@ -1,7 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
 ul {
   list-style: none;
 }
 ul li {
   display: inline-block;
   margin: 0 1rem;
+}
+
+.comics_table th {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.comics_table td {
+  padding: 0.5rem;
 }
