@@ -42,7 +42,7 @@ class ComicController extends Controller
         $comic = new Comic();
 
         $comic->name = $request['name'];
-        $comic->description = $request['descriptioname'];
+        $comic->description = $request['description'];
         $comic->poster = $request['poster'];
         $comic->price = $request['price'];
 
